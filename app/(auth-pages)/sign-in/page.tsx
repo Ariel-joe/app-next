@@ -37,7 +37,7 @@ export default async function Login(props: { searchParams: Promise<Message> }) {
 
       <p className="text-sm text-foreground">
         Don't have an account?{" "}
-        <Link className="text-foreground font-medium underline" href="/sign-up">
+        <Link className="text-foreground font-medium underline" href="/register">
           Register
         </Link>
       </p>
