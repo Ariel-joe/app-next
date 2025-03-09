@@ -17,10 +17,9 @@ export default async function Page() {
     <>
       <div>
         {notes?.map((note, i) => (
-            <li key={i}>
-                {note.id}{" "}
-                {note.title}
-            </li>
+          <li key={i}>
+            {note.id} {note.title}
+          </li>
         ))}
       </div>
     </>
